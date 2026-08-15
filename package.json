@@ -1,0 +1,24 @@
+{
+  "name": "@ailexsi/regisseur",
+  "version": "0.1.0-blueprint",
+  "description": "AILEXSI Regisseur — proposes a new video track from Analyser snapshot. Proposal-only.",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run"
+  },
+  "keywords": ["ailexsi", "regisseur", "director", "proposal", "local-first"],
+  "author": "AILEXSI",
+  "license": "UNLICENSED",
+  "private": true,
+  "devDependencies": {
+    "typescript": "^5.6.3",
+    "vitest": "^2.1.4"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
